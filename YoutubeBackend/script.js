@@ -16,4 +16,11 @@ var arr = [1,2,3,4]
 // 3 hello
 // 4 hello
 
+// map
+var newarr = arr.map(function(val){
+    return 13;
+})
 
+console.log(newarr);
+// OUTPUT:
+// [13, 13, 13, 13]
