@@ -79,3 +79,24 @@ var newarr = arr.map(function(val){
 // // Object.freeze(obj)
 
 // obj.age = 25
+
+// functions
+// Fun trick:
+// as we know that we can find length of array, we can also find length of function
+// means we can find the length of parameters that we pass in the function
+// Bcoz the typeof function(){} is function, but the core is object itself
+// function abcd(a, b, c) {
+
+// }
+// Length
+// abcd.length
+// O/P: 3
+
+// function abcd(){
+//     // return 12
+//     return "hello world"
+// }
+
+var ans = abcd()
+// O/P: 12
+// O/P: hello world
