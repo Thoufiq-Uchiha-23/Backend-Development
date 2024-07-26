@@ -97,6 +97,22 @@ var newarr = arr.map(function(val){
 //     return "hello world"
 // }
 
-var ans = abcd()
+// var ans = abcd()
 // O/P: 12
 // O/P: hello world
+
+// async js coding
+// line by line code chale isey kehte hai synchronous
+// jo bhi code async nature ka ho, usey side stack main bhej do and agle code ko
+// chalao jo bhi sync nature ka ho, jab bhi saara sync code chal jaaye, tab check karo ki
+// async code complete hua ya nahi and agar wo complete hua ho to usey main stacj main lao
+// and chalao
+
+async function abcd() {
+    var blob = await fetch(`https://randomuser.me/api/`)
+    var ans = await blob.json()
+
+    console.log(ans.results[0].name);
+}
+
+abcd();
