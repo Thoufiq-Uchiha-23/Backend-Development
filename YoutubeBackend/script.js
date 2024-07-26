@@ -67,3 +67,15 @@ var newarr = arr.map(function(val){
 // arr.indexOf(2)
 // O/P: 1 (means it's at index 1)
 
+// Objects
+// kuchbhi on left side colon(:) kuchbhi on right side inside curly braces "{}" is object
+// a pattern in which storing in key value pairs is object with curly braces
+// var obj = {
+//     name: "harsh",
+//     age: 12,
+//     kuchhbhi: "kuchhbhi"
+// }
+
+// // Object.freeze(obj)
+
+// obj.age = 25
