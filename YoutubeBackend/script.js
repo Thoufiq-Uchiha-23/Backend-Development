@@ -28,9 +28,42 @@ var newarr = arr.map(function(val){
 //     return val;
 // })
 // O/P: [1, 2, 3, 4]
-var newarr = arr.map(function(val){
-    return val * 3;
-})
-// O/P: [3, 6, 9, 12] 
-console.log(newarr);
+// var newarr = arr.map(function(val){
+//     return val * 3;
+// })
+// // O/P: [3, 6, 9, 12] 
+// console.log(newarr);
+
+// filter
+// var ans = arr.filter(function(val) {
+//     if(val >= 3) { return true;}
+//     else return false;
+// })
+// // O/P: [3, 4]
+// var ans = arr.filter(function(val) {
+//     if(val >= 2) { return true;}
+//     else return false;
+// })
+// // O/P: [2, 3, 4]
+// var ans = arr.filter(function(val) {
+//     if(val >= 12) { return true;}
+//     else return false;
+// })
+// // O/P: []
+// console.log(ans);
+
+// find
+// var arr = [1, 2, 2, 3, 4]
+
+// var ans = arr.find(function(val){
+//     if(val === 2) return val;
+// })
+
+// console.log(ans);
+
+// indexOf
+// arr.indexOf(12)
+// O/P: -1 (means it's not present)
+// arr.indexOf(2)
+// O/P: 1 (means it's at index 1)
 
