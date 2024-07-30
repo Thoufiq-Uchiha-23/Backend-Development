@@ -32,7 +32,20 @@ unlink
 // })
 
 // DELETING FILE
-fs.unlink("hello.txt", function (err) {
+// fs.unlink("hello.txt", function (err) {
+//     if(err) console.error(err);
+//     else console.log("removed");
+// })
+
+// DELETING DIRECTORY/FOLDER
+// fs.rmdir("./copy", {recursive: true},function(err) {
+//     if(err) console.error(err);
+//     else console.log("removed");
+// })
+
+// NOTE: s.rmdir(path, { recursive: true }) will be removed. 
+// Use fs.rm(path, { recursive: true }) instead
+fs.rm("./copy", {recursive: true},function(err) {
     if(err) console.error(err);
     else console.log("removed");
 })
