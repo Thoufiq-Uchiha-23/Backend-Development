@@ -20,7 +20,13 @@ unlink
 // })
 
 // RENAME FILE
-fs.rename("hey.txt", "hello.txt", function(err){
-    if(err) console.error(err)
-    else console.log("done");
-})
+// fs.rename("hey.txt", "hello.txt", function(err){
+//     if(err) console.error(err)
+//     else console.log("done");
+// })
+
+// COPY FILE
+// fs.copyFile("hello.txt", "./copy/replica.txt", function (err) {
+//     if(err) console.error(err);
+//     else console.log("done");
+// })
