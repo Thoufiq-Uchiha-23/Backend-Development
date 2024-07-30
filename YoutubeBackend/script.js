@@ -30,3 +30,9 @@ unlink
 //     if(err) console.error(err);
 //     else console.log("done");
 // })
+
+// DELETING FILE
+fs.unlink("hello.txt", function (err) {
+    if(err) console.error(err);
+    else console.log("removed");
+})
