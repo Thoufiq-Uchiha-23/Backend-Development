@@ -45,10 +45,10 @@ unlink
 
 // NOTE: s.rmdir(path, { recursive: true }) will be removed. 
 // Use fs.rm(path, { recursive: true }) instead
-// fs.rm("./copy", {recursive: true},function(err) {
-//     if(err) console.error(err);
-//     else console.log("removed");
-// })
+fs.rm("./copy", {recursive: true},function(err) {
+    if(err) console.error(err);
+    else console.log("removed");
+})
 
 // HTTP
 const http = require('http')
