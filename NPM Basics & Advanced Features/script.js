@@ -11,6 +11,9 @@
 // install -> npm i packageKaNaam
 // uninstall -> npm uninstall packageKaNaam
 
+// Downloading based on version
+// Eg: npm i accessibility@3.0.9 
+
 // understanding node_modules
 // dependencies
 // devdependencies
