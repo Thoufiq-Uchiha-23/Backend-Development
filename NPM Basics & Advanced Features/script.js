@@ -5,8 +5,12 @@
 // NOTE:
 // node js core mein jo installed aata hai wo kehlata hain module
 // npm se download krte hai wo hota hai package
+// eg: text to speech package by Google
 
 // installing and uninstalling anything basics & advanced
+// install -> npm i packageKaNaam
+// uninstall -> npm uninstall packageKaNaam
+
 // understanding node_modules
 // dependencies
 // devdependencies
