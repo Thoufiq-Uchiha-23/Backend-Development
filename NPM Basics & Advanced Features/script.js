@@ -15,6 +15,6 @@
 // Eg: npm i accessibility@3.0.9 
 
 // understanding node_modules
-// dependencies
+// dependencies - packages and packages ki dependenicies
 // devdependencies
 // scripts - understanding default scripts PATH and custom scripts
