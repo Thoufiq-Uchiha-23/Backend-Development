@@ -16,5 +16,6 @@
 
 // understanding node_modules
 // dependencies - packages and packages ki dependenicies
-// devdependencies
+// devdependencies - aise packages jo sirf development main kaam aayege par jab app ban jaayega
+// aur upload ho jaayega tab packages ko use nahi kar rahe honge
 // scripts - understanding default scripts PATH and custom scripts
