@@ -12,15 +12,29 @@
 // Request and response handling
 // Error handling
 
+// const express = require("express");
+// const app = express();
+
+// app.get("/", function (req, res) {
+//   res.send("champion meraaaaa anuuuuuuuuuj");
+// });
+
+// app.get("/profile", function (req, res) {
+//   res.send("champion uska coach");
+// });
+
+// app.listen(3000);
+
+// MIDDLEWARE
+// Jab bhi server request accept karta hai waha se route ke beech pahunchne take agar
+// aap us request ko beech me rokte ho and kuch perform karte ho, to ye element middleware
+// kehlaate hai
+
 const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
   res.send("champion meraaaaa anuuuuuuuuuj");
-});
-
-app.get("/profile", function (req, res) {
-  res.send("champion uska coach");
 });
 
 app.listen(3000);
