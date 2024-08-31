@@ -18,7 +18,9 @@ const app = express();
 app.get("/", function (req, res) {
   res.send("champion meraaaaa anuuuuuuuuuj");
 });
+
 app.get("/profile", function (req, res) {
   res.send("champion uska coach");
 });
+
 app.listen(3000);
