@@ -56,4 +56,14 @@ app.get("/about", function (req, res) {
   res.send("about page hai yeh");
 });
 
+app.get("/profile", function (req, res, next) {
+  return next(new Error("something went wrong"))
+});
+
+// Error Handling
+app.use((err, req, res, next) => {
+  console.error(err.stack)
+  res.status(500).send("something went wrong, we don't have any idea")
+})
+
 app.listen(3000);
